@@ -1,6 +1,6 @@
 const propert = ({ data }) => {
   return (
-    <div className="w-[340px] h-[400px] 2xl:w-[400px] 2xl:h-[440px] text-white bg-purple-950 rounded-xl my-10 relative text-[14px] m-auto shadow-black shadow-2xl">
+    <div className="w-[340px] h-[400px] 2xl:w-[400px] 2xl:h-[440px] text-white bg-gradient-to-r via-indigo-950 from-blue-950 to-purple-950 rounded-xl my-10 relative text-[14px] m-auto shadow-black shadow-2xl">
       <div className="img m-auto h-[220px] 2xl:h-[244px] w-[89%] 2xl:w-[89%] py-[22px] rounded-xl relative">
         <img
           src={data.img}

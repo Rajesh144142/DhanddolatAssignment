@@ -5,13 +5,17 @@ import ListofProperties from "../../components/propertyList/propertylist";
 import { GrNext } from "react-icons/gr";
 const homePageProperties = () => {
   return (
-    <div>
+    <div className="relative h-[730px] overflow-hidden">
+      <div className="w-[150px] h-[150px] rounded-[50%] bg-gradient-to-r from-purple-600 to-indigo-800 absolute top-[-70px] left-[-80px] shadow-xl shadow-blue-900"></div>
+      <div className="w-[50px] h-[50px] rounded-[50%] bg-gradient-to-r from-blue-800 to-indigo-800 absolute left-[20px] top-28 shadow-xl shadow-blue-900"></div>
       <div
         id="propeties"
-        className=" m-auto h-[700px] flex flex-col justify-center items-center w-[90%]"
+        className=" m-auto h-[700px] flex flex-col justify-center items-center w-[90%] z-50 opacity-85"
       >
         <Link
-          to="/properties" className="Properties flex gap-1 items-center text-2xl text-yellow-400 cursor-pointer">
+          to="/properties"
+          className="Properties flex gap-1 items-center text-2xl text-yellow-400 cursor-pointer"
+        >
           <div className="icon ">
             <BiSolidLeftArrow />
           </div>
